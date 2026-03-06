@@ -6,28 +6,28 @@ The website represents a fictional company called Generic Plants & Fauna Co., wh
 ----------------------------------------------------------------
 Pages:
 
-  -index.html – Main landing page
+  *index.html – Main landing page
 
-  -features.html – Features of the service
+  *features.html – Features of the service
 
-  -pricing.html – Example pricing plans
+  *pricing.html – Example pricing plans
 
-  -about.html – Information about the company
+  *about.html – Information about the company
 
-  -contact.html – Contact information
+  *contact.html – Contact information
 ----------------------------------------------------------------
 Technologies Used:
 
-  -HTML
+  *HTML
 
-  -CSS
+  *CSS
 
-  -Flexbox
+  *Flexbox
 
-  -CSS Grid
-
-  -Author
+  *CSS Grid
 ----------------------------------------------------------------
+Author:
+
 Jackson Hinks -
 March 2026
 ----------------------------------------------------------------
