@@ -1,0 +1,159 @@
+/* Landing Page Clone - Jackson Hinks - 3/6/2026 */
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    line-height:1.6;
+}
+
+h1,h2,h3,h4{
+    margin-bottom:10px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.brand{
+    font-weight:bold;
+    font-size:1.2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn{
+    background:#2e8b57;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#246c44;
+}
+
+.btn-outline{
+    border:1px solid #2e8b57;
+    background:none;
+    padding:10px 16px;
+    cursor:pointer;
+}
+
+.btn-outline:hover{
+    background:#2e8b57;
+    color:white;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero-buttons{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:20px;
+    border-radius:6px;
+}
+
+.feature-img{
+    width:100%;
+    height:auto;
+    border-radius:6px;
+    margin-bottom:10px;
+    object-fit:cover;
+}
+
+.card img{
+    max-height:200px;
+    object-fit:cover;
+}
+
+.testimonials{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+
+.footer{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.footer ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer a{
+    display:block;
+    margin:5px 0;
+}
+
+.footer a:hover{
+    text-decoration:underline;
+}
+
+@media (min-width:768px){
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .features{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .testimonials{
+        flex-direction:row;
+    }
+
+    .footer{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
